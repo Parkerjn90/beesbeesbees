@@ -14,3 +14,7 @@ RetiredForagerBee.prototype.forage = function() {
 };
 
 RetiredForagerBee.prototype.eat = getOld.eat;
+
+RetiredForagerBee.prototype.gamble = function(treasure) {
+  this.treasureChest.push(treasure);
+};
