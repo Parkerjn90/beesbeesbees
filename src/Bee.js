@@ -1,9 +1,5 @@
 var Bee = function() {
 
-
-  this.food = growUp.food;
-  // this.eat = growUp.eat;
-
 };
 
 var growUp = new Grub();
